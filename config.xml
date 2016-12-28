@@ -43,8 +43,6 @@ Olumide Ogundele
     <feature name="http://api.phonegap.com/1.0/network"/>
 
 	
-	 <plugin name="cordova-plugin-whitelist" source="npm" />
-	
     <gap:plugin name="cordova-plugin-inappbrowser" source="npm" />
 	<gap:plugin name="cordova-plugin-file" source="npm" />
     <gap:plugin name="org.apache.cordova.file-transfer" source="npm"  />
