@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+	xmlns:gap = "http://phonegap.com/ns/1.0"
+	id        = "com.binarysoft.emumap"
+	versionCode="1"
+	version   = "1.0">
+    <name>BADGing</name>
+    <description>
+EXAMPLE	OF BADGE</description>
+<author href="google.com" email="olumideogundele@gmail.com">
+Olumide Ogundele
+</author>
+    <gap:platform name="ios" />
+    <gap:platform name="android" />
+    <gap:platform name="winphone" />
+    
+	<preference name="phonegap-version" value="3.7.0" />
+    <preference name="orientation" value="portrait" />
+    <preference name="fullscreen" value="false" />
+    <preference name="webviewbounce" value="false" />
+    <preference name="DisallowOverscroll" value="true"/>
+    <preference name="disallowOverscroll" value="true" />
+    <preference name="exit-on-suspend" value="false" />
+    <preference name="prerendered-icon" value="false" />
+    <preference name="android-minSdkVersion" value="14" />
+    <preference name="android-installLocation" value="auto" />
+    <preference name="BackgroundColor" value="0xffffffff "/>
+    <preference name="KeepRunning" value="true"/>
+	<icon src="images/logo.png" gap:platform="android" gap:density="ldpi" />
+	<icon src="images/logo.png" gap:platform="android" gap:density="mdpi" />
+	<icon src="images/logo.png" gap:platform="android" gap:density="hdpi" />
+	<icon src="images/logo.png" gap:platform="android" gap:density="xhdpi" />
+	<icon src="images/logo.png" gap:platform="android" gap:density="xxhdpi" />
+		
+	<gap:splash src="images/splash.png" gap:platform="android" gap:density="ldpi" />
+    <gap:splash src="images/splash.png" gap:platform="android" gap:density="mdpi" />
+    <gap:splash src="images/splash.png" gap:platform="android" gap:density="hdpi" />
+    <gap:splash src="images/splash.png" gap:platform="android" gap:density="xhdpi" />
+    <gap:splash src="images/splash.png" gap:platform="android" gap:density="xxhdpi" />
+	
+	<feature name="http://api.phonegap.com/1.0/file-transfer"/>
+    <feature name="http://api.phonegap.com/1.0/geolocation"/>
+    <feature name="http://api.phonegap.com/1.0/network"/>
+
+	
+	 <plugin name="cordova-plugin-whitelist" source="npm" />
+	<gap:plugin name="de.appplant.cordova.plugin.badge" source="npm"/>
+    <gap:plugin name="cordova-plugin-inappbrowser" source="npm" />
+	<gap:plugin name="cordova-plugin-file" source="npm" />
+    <gap:plugin name="org.apache.cordova.file-transfer" source="npm"  />
+    <gap:plugin name="org.apache.cordova.geolocation"  source="npm"  />
+    <gap:plugin name="org.apache.cordova.dialogs"  source="npm"  />
+    <gap:plugin name="org.apache.cordova.device"  source="npm"  />
+    <gap:plugin name="org.apache.cordova.network-information"  source="npm"  />
+    <gap:plugin name="org.apache.cordova.console"   source="npm" />
+    <gap:plugin name="org.apache.cordova.network-information"  source="npm"  />
+    <access origin="*" subdomains="true" />
+
+    
+    
+    
+</widget>
