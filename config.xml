@@ -4,17 +4,16 @@
 	id        = "com.binarysoft.emumap"
 	versionCode="1"
 	version   = "1.0">
-    <name>BADGE MINE</name>
+    <name>Shift Clocker</name>
     <description>
-EXAMPLE	OF MY BADGE</description>
-<author href="google.com" email="olumideogundele@gmail.com">
-Olumide Ogundele
+Shift Clocking Made easy	</description>
+<author href="google.com" email="aderinwaletunde@gmail.com">
+Tunde Aderinwale
 </author>
     <gap:platform name="ios" />
     <gap:platform name="android" />
     <gap:platform name="winphone" />
-    
-	<preference name="phonegap-version" value="3.7.0" />
+    <preference name="phonegap-version" value="3.3.0" />
     <preference name="orientation" value="portrait" />
     <preference name="fullscreen" value="false" />
     <preference name="webviewbounce" value="false" />
@@ -32,23 +31,25 @@ Olumide Ogundele
 	<icon src="images/logo.png" gap:platform="android" gap:density="xhdpi" />
 	<icon src="images/logo.png" gap:platform="android" gap:density="xxhdpi" />
 		
-	<gap:splash src="images/splash.png" gap:platform="android" gap:density="ldpi" />
-    <gap:splash src="images/splash.png" gap:platform="android" gap:density="mdpi" />
-    <gap:splash src="images/splash.png" gap:platform="android" gap:density="hdpi" />
-    <gap:splash src="images/splash.png" gap:platform="android" gap:density="xhdpi" />
-    <gap:splash src="images/splash.png" gap:platform="android" gap:density="xxhdpi" />
+	<gap:splash src="images/logo.png" gap:platform="android" gap:density="ldpi" />
+    <gap:splash src="images/logo.png" gap:platform="android" gap:density="mdpi" />
+    <gap:splash src="images/logo.png" gap:platform="android" gap:density="hdpi" />
+    <gap:splash src="images/logo.png" gap:platform="android" gap:density="xhdpi" />
+    <gap:splash src="images/logo.png" gap:platform="android" gap:density="xxhdpi" />
 	
 	<feature name="http://api.phonegap.com/1.0/file-transfer"/>
     <feature name="http://api.phonegap.com/1.0/geolocation"/>
     <feature name="http://api.phonegap.com/1.0/network"/>
 
-	<gap:plugin name="cordova-plugin-file" source="npm" />
-    <gap:plugin name="org.apache.cordova.file-transfer" source="npm"  />
-    <gap:plugin name="org.apache.cordova.geolocation"  source="npm"  />
-    <gap:plugin name="org.apache.cordova.dialogs"  source="npm"  />
-    <gap:plugin name="org.apache.cordova.device"  source="npm"  />
-    <gap:plugin name="org.apache.cordova.console"   source="npm" />
-    <gap:plugin name="org.apache.cordova.network-information"  source="npm"  />
+    <gap:plugin name="org.apache.cordova.file" version="1.3.1" />
+    <gap:plugin name="org.apache.cordova.file-transfer" version="0.4.6" />
+    <gap:plugin name="org.apache.cordova.geolocation"  />
+    <gap:plugin name="org.apache.cordova.dialogs"  />
+    <gap:plugin name="org.apache.cordova.device"  />
+    <gap:plugin name="org.apache.cordova.network-information"  />
+    <gap:plugin name="org.apache.cordova.console"  />
+    <gap:plugin name="org.apache.cordova.inappbrowser"  />
+    <gap:plugin name="org.apache.cordova.network-information"  />
     <access origin="*" subdomains="true" />
 
     
